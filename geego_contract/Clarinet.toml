@@ -1,0 +1,24 @@
+[project]
+name = 'geego_contract'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.registration]
+path = 'contracts/registration.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.reputation-token]
+path = 'contracts/reputation-token.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
