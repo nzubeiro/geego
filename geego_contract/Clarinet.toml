@@ -10,6 +10,11 @@ path = 'contracts/escrow_and_payment.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.job_listing_and_bidding]
+path = 'contracts/job_listing_and_bidding.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.registration]
 path = 'contracts/registration.clar'
 clarity_version = 2
